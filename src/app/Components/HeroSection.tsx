@@ -33,7 +33,7 @@ function HeroSection() {
               repeat={Infinity}
             />
           </div>
-          <h1 className="mt-4 text-5xl font-bold w-full">SHREYA SINGH</h1>
+          <h1 className="mt-6 text-5xl font-bold w-full">SHREYA SINGH</h1>
         </h1>
         <span className="my-4"></span>
         <p className="mt-6 lg:text-[23px]  text-transparent bg-clip-text bg-gradient-to-r from-white to-purple-300 font-semibold text-[18.7px] ">
@@ -43,18 +43,18 @@ function HeroSection() {
         With a deep-seated passion for learning, I am committed to delivering high-quality results in every endeavor I undertake.
         </p>
 
-        <div className=" flex  mt-6 ">
-          <div className="mx-4  hover:text-pink-600 hover:cursor-pointer">
+        <div className=" flex  mt-6  ">
+          <div className="  hover:text-pink-600 hover:cursor-pointer">
             <AiFillGithub size={29} />
           </div>
-          <div className="mx-4 hover:text-pink-600 hover:cursor-pointer ">
+          <div className="mx-2 hover:text-pink-600 hover:cursor-pointer ">
             <BsTwitter size={29} />
           </div>
-          <div className="mx-4  hover:text-pink-600 hover:cursor-pointer">
+          <div className="mx-2 hover:text-pink-600 hover:cursor-pointer">
             <BsLinkedin size={29} />
           </div>
 
-          <div className="mx-4  hover:text-pink-600 hover:cursor-pointer">
+          <div className="mx-2  hover:text-pink-600 hover:cursor-pointer">
             <BiLogoGmail size={29} />
           </div>
           <div className="mx-4 hover:text-pink-600 hover:cursor-pointer ">

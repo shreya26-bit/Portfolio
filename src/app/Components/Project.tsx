@@ -4,13 +4,13 @@ import React from "react";
 const projectDetails = [
   {
     id: 1,
-    title: "Portfolio Website",
+    title: "SPENDIFY",
     image:"Images/expensesApp.png",
     des: "Next.js Website",
   },
   {
     id: 2,
-    title: "Portfolio Website",
+    title: "PORTFOLIO WEBSITE",
     image: "Images/222.png",
     des: "Next.js Website",
   },
@@ -26,14 +26,16 @@ const projectDetails = [
     image: "Images/3image.png",
     des: "React Website",
   },
+
   {
     id: 5,
-    des: "Javascript Website",
-    title: "Keep Your Notes",
-    image: "Images/4image.png",
+    des:"Pure HTML & CSS",
+    title: "FOOD DELIVERY",
+    image: "Images/foodDelivery.png",
   },
   {
     id: 6,
+    des: "Javascript Website",
     title: "Keep Your Notes",
     image: "Images/4image.png",
   },
@@ -69,7 +71,7 @@ function Project() {
                  rounded-2xl"
                   >
                     <img
-                      className=" rounded-3xl p-4 "
+                      className=" rounded-3xl lg:p-4 "
                       src={details.image}
                       alt=""
                       style={{ height: "18rem" }}
@@ -92,6 +94,7 @@ function Project() {
                     <p className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600 m-1 text-[18px] font-extrabold text-center">
                       {details.des}
                     </p>
+
                     <div className="flex flex-row  justify-between mt-2 p-4 font-thin">
                       <Link
                         href="/"

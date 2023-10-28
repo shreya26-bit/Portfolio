@@ -31,13 +31,15 @@ function About() {
               Get to know me!
             </h1>
             <div className="lg:m-4 lg:mt-8 mt-4">
-              <p className="text-2xl text-gray-100 text-justify m-1 lg:text-1xl font- text-[21px] lg:p-4">
-                I'm a FRONTEND WEB DEVELOPER building the Front-end Websites
+            
+              <p className="mt-6 lg:text-[23px]  text-transparent bg-clip-text bg-gradient-to-r from-white to-purple-300 font-semibold text-[18.7px] ">
+              I'm a FRONTEND WEB DEVELOPER building the Front-end Websites
                 and Applications with the help of HTML, CSS, BOOTSTRAP, NEXTJS
                 ,REACT ,REDUX ,TAILWIND that leads to the success of the overall
                 Product. I'm open to opportunties where i can contribute, learn
                 and grow
-              </p>
+        </p>
+     
             </div>
           </div>
           <div className="flex flex-col mt-10">
@@ -47,36 +49,36 @@ function About() {
             <div className="lg:mt-5 mt-10 ">
               <div className="flex flex-col lg:m-2  ">
                 <div className="flex flex-row  ">
-                  <div className="btn text-white w-[40%] lg:p-4 text-1xl rounded-full text-center  shadow shadow-cyan-600 font-bold lg:m-4 m-1 p-3 border-1 border-pink-500">
+                  <div className="btn  text-transparent bg-clip-text bg-gradient-to-r from-white to-purple-300 w-[40%] lg:p-4 text-1xl rounded-full text-center  shadow shadow-cyan-600 font-bold lg:m-4 m-1 p-3 border-1 border-pink-500">
                     HTML
                   </div>
 
-                  <div className="btn text-white w-[40%]   lg:p-4 text-1xl rounded-full text-center  shadow shadow-cyan-600 font-bold lg:m-4 m-1 p-3 border-1 border-pink-500">
+                  <div className="btn  text-transparent bg-clip-text bg-gradient-to-r from-white to-purple-300 w-[40%]   lg:p-4 text-1xl rounded-full text-center  shadow shadow-cyan-600 font-bold lg:m-4 m-1 p-3 border-1 border-pink-500">
                     CSS
                   </div>
 
-                  <div className="btn text-white w-[40%]   lg:p-4 text-1xl rounded-full text-center  shadow shadow-cyan-600 font-bold lg:m-4 m-1 p-3 border-1 border-pink-500">
+                  <div className="btn  text-transparent bg-clip-text bg-gradient-to-r from-white to-purple-300 w-[40%]   lg:p-4 text-1xl rounded-full text-center  shadow shadow-cyan-600 font-bold lg:m-4 m-1 p-3 border-1 border-pink-500">
                     Javascript
                   </div>
 
-                  <div className="btn text-white w-[40%]   lg:p-4 text-1xl rounded-full text-center  shadow shadow-cyan-600 font-bold lg:m-4 m-1 p-3 border-1 border-pink-500">
+                  <div className="btn  text-transparent bg-clip-text bg-gradient-to-r from-white to-purple-300 w-[40%]   lg:p-4 text-1xl rounded-full text-center  shadow shadow-cyan-600 font-bold lg:m-4 m-1 p-3 border-1 border-pink-500">
                     React
                   </div>
                 </div>
                 <div className="flex flex-row mt-4  ">
-                  <div className="btn text-white w-[40%]   lg:p-4 text-1xl rounded-full text-center  shadow shadow-cyan-600 font-bold lg:m-4 m-1 p-3 border-1 border-pink-500">
+                  <div className="btn  text-transparent bg-clip-text bg-gradient-to-r from-white to-purple-300 w-[40%]   lg:p-4 text-1xl rounded-full text-center  shadow shadow-cyan-600 font-bold lg:m-4 m-1 p-3 border-1 border-pink-500">
                     Redux
                   </div>
 
-                  <div className="btn text-white w-[40%]   lg:p-4 text-1xl rounded-full text-center  shadow shadow-cyan-600 font-bold lg:m-4 m-1 p-3 border-1 border-pink-500">
+                  <div className="btn  text-transparent bg-clip-text bg-gradient-to-r from-white to-purple-300 w-[40%]   lg:p-4 text-1xl rounded-full text-center  shadow shadow-cyan-600 font-bold lg:m-4 m-1 p-3 border-1 border-pink-500">
                     Typescript
                   </div>
 
-                  <div className="btn text-white w-[40%]   lg:p-4 text-1xl rounded-full text-center  shadow shadow-cyan-600 font-bold lg:m-4 p-2 border-1 border-pink-500">
+                  <div className="btn  text-transparent bg-clip-text bg-gradient-to-r from-white to-purple-300 w-[40%]   lg:p-4 text-1xl rounded-full text-center  shadow shadow-cyan-600 font-bold lg:m-4 p-2 border-1 border-pink-500">
                     Tailwind CSS
                   </div>
                 </div>
-                <div className="btn mt-4 text-white w-[30%]  lg:p-4 text-1xl rounded-full text-center  shadow shadow-cyan-600 font-bold lg:m-4 m-1 p-3 border-1 border-pink-500">
+                <div className="btn mt-4  text-transparent bg-clip-text bg-gradient-to-r from-white to-purple-300 w-[30%]  lg:p-4 text-1xl rounded-full text-center  shadow shadow-cyan-600 font-bold lg:m-4 m-1 p-3 border-1 border-pink-500">
                   Bootstrap
                 </div>
               </div>
