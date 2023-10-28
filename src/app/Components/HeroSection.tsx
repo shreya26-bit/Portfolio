@@ -37,11 +37,10 @@ function HeroSection() {
         </h1>
         <span className="my-4"></span>
         <p className="mt-6 lg:text-[23px]  text-transparent bg-clip-text bg-gradient-to-r from-white to-purple-300 font-semibold text-[18.7px] ">
-          I am motivated and versatile individual, always eager to take an
+        I am a motivated and versatile individual, always eager to embrace new challenges.
         </p>
         <p className=" lg:text-[23px]  text-transparent bg-clip-text bg-gradient-to-r from-white to-purple-300 font-semibold text-[18.7px] ">
-          new challenges. With a passion for learning i am dedicated
-          high-quality results.
+        With a deep-seated passion for learning, I am committed to delivering high-quality results in every endeavor I undertake.
         </p>
 
         <div className=" flex  mt-6 ">

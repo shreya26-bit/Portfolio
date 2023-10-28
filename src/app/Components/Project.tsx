@@ -48,23 +48,13 @@ function Project() {
           <h1 className=" text-4xl text-bold lg:text-center font-bold m-4 text-pink-400 ">
             Project
           </h1>
-          {/* <div
-          className="mt-4 h-screen flex m-auto  sm:block md:block"
-          style={{
-            flex: 1,
-            height: "4px",
-            backgroundColor: "purple",
-            width: "2%",
-          }}
-        ></div> */}
+      
           <div className="flex flex-col">
             <p className=" hidden lg:block m-1 lg:text-[20px] text-[20px] lg:text-center text-white p-2">
               Here you will find out my projects that I have created by using my
-              skills i have created
+              skills 
             </p>
-            <p className="m-1 hidden lg:block lg:text-[20px] text-[20px] text-center text-white p-2">
-              i have created
-            </p>
+          
             <div className="ABOUTME flex mt-20"></div>
           </div>
         </div>

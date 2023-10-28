@@ -30,13 +30,13 @@ function About() {
             <h1 className="text-pink-500 lg:m-8 lg:text-4xl mt-4 text-3xl">
               Get to know me!
             </h1>
-            <div className="lg:m-4 lg:mt-10 mt-4">
-              <p className="text-2xl text-gray-100 text-justify m-1 lg:text-1xl font- text-[18.7px] lg:p-4">
+            <div className="lg:m-4 lg:mt-8 mt-4">
+              <p className="text-2xl text-gray-100 text-justify m-1 lg:text-1xl font- text-[21px] lg:p-4">
                 I'm a FRONTEND WEB DEVELOPER building the Front-end Websites
                 and Applications with the help of HTML, CSS, BOOTSTRAP, NEXTJS
                 ,REACT ,REDUX ,TAILWIND that leads to the success of the overall
                 Product. I'm open to opportunties where i can contribute, learn
-                and grow. if you have a good opportunity that matches my skill
+                and grow
               </p>
             </div>
           </div>
