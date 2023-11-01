@@ -7,39 +7,50 @@ const projectDetails = [
     title: "SPENDIFY",
     image:"Images/expensesApp.png",
     des: "Next.js Website",
+    github:"https://github.com/shreya26-bit/expense-tracker-me",
+    liveDemo:"https://expense-tracker-me.vercel.app/"
   },
   {
     id: 2,
     title: "PORTFOLIO WEBSITE",
     image: "Images/222.png",
     des: "Next.js Website",
+    github:"https://github.com/shreya26-bit/Portfolio",
+    liveDemo:"https://portfolio-eta-eight-84.vercel.app/",
   },
   {
     id: 3,
     title: "MOVIEFLY",
     image: "Images/2image.png",
     des: "React Website",
+    github:"https://github.com/shreya26-bit/e-Cart-App",
+    liveDemo:"https://e-cart-app-ebon.vercel.app/"
   },
   {
     id: 4,
     title: "E-Commerece",
     image: "Images/3image.png",
     des: "React Website",
+    github:"https://github.com/shreya26-bit/e-Cart-App",
+    liveDemo:"https://e-cart-app-ebon.vercel.app/",
   },
-
+   
   {
     id: 5,
     des:"Pure HTML & CSS",
     title: "FOOD DELIVERY",
     image: "Images/foodDelivery.png",
+    github:"",
+    liveDemo:"",
   },
   {
     id: 6,
     des: "Javascript Website",
     title: "Keep Your Notes",
     image: "Images/4image.png",
+    github:"https://github.com/shreya26-bit/Keep-Notes",
+    liveDemo:"https://keep-notes-nine.vercel.app/",
   },
-
 ];
 
 function Project() {
@@ -71,7 +82,7 @@ function Project() {
                  rounded-2xl"
                   >
                     <img
-                      className=" rounded-3xl lg:p-4 "
+                      className=" rounded-3xl lg:p-4 object-contain"
                       src={details.image}
                       alt=""
                       style={{ height: "18rem" }}
@@ -97,14 +108,14 @@ function Project() {
 
                     <div className="flex flex-row  justify-between mt-2 p-4 font-thin">
                       <Link
-                        href="/"
-                        className="btn text-cyan-500 w-[40%]   lg:p-4 text-1xl rounded-full text-center  shadow shadow-cyan-600 font-bold lg:m-4 m-1 p-3 border-1 border-pink-500"
+                        href={details.github}
+                        className="btn text-cyan-500 lg:w-[40%]   lg:p-4 text-1xl rounded-full text-center  shadow shadow-cyan-600 font-bold lg:m-4 m-1 p-5 border-1 w-[50%] border-pink-500"
                       >
                         Github
                       </Link>
                       <Link
-                        href="/"
-                        className="btn text-pink-500 w-[40%]   lg:p-4 text-1xl rounded-full text-center  shadow shadow-pink-600 font-bold lg:m-4 m-1 p-3 border-1 border-pink-500"
+                        href={details.liveDemo}
+                        className="btn text-pink-500 lg:w-[40%]   lg:p-4 text-1xl rounded-full text-center  shadow shadow-pink-600 font-bold lg:m-4 m-1 p-5 border-1 w-[50%] border-pink-500"
                       >
                         Live Demo
                       </Link>

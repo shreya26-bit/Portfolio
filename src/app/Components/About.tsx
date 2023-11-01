@@ -31,15 +31,13 @@ function About() {
               Get to know me!
             </h1>
             <div className="lg:m-4 lg:mt-8 mt-4">
-            
               <p className="mt-6 lg:text-[23px]  text-transparent bg-clip-text bg-gradient-to-r from-white to-purple-300 font-semibold text-[18.7px] ">
-              I'm a FRONTEND WEB DEVELOPER building the Front-end Websites
-                and Applications with the help of HTML, CSS, BOOTSTRAP, NEXTJS
+                I'm a FRONTEND WEB DEVELOPER building the Front-end Websites and
+                Applications with the help of HTML, CSS, BOOTSTRAP, NEXTJS
                 ,REACT ,REDUX ,TAILWIND that leads to the success of the overall
                 Product. I'm open to opportunties where i can contribute, learn
                 and grow
-        </p>
-     
+              </p>
             </div>
           </div>
           <div className="flex flex-col mt-10">
@@ -61,9 +59,7 @@ function About() {
                     Javascript
                   </div>
 
-                  <div className="btn  text-transparent bg-clip-text bg-gradient-to-r from-white to-purple-300 w-[40%]   lg:p-4 text-1xl rounded-full text-center  shadow shadow-cyan-600 font-bold lg:m-4 m-1 p-3 border-1 border-pink-500">
-                    React
-                  </div>
+               
                 </div>
                 <div className="flex flex-row mt-4  ">
                   <div className="btn  text-transparent bg-clip-text bg-gradient-to-r from-white to-purple-300 w-[40%]   lg:p-4 text-1xl rounded-full text-center  shadow shadow-cyan-600 font-bold lg:m-4 m-1 p-3 border-1 border-pink-500">
@@ -77,10 +73,18 @@ function About() {
                   <div className="btn  text-transparent bg-clip-text bg-gradient-to-r from-white to-purple-300 w-[40%]   lg:p-4 text-1xl rounded-full text-center  shadow shadow-cyan-600 font-bold lg:m-4 p-2 border-1 border-pink-500">
                     Tailwind CSS
                   </div>
+             
                 </div>
-                <div className="btn mt-4  text-transparent bg-clip-text bg-gradient-to-r from-white to-purple-300 w-[30%]  lg:p-4 text-1xl rounded-full text-center  shadow shadow-cyan-600 font-bold lg:m-4 m-1 p-3 border-1 border-pink-500">
+                <div className="flex flex-row">
+                <div className="btn mt-4  text-transparent bg-clip-text bg-gradient-to-r from-white to-purple-300 w-[40%]  lg:p-4 text-1xl rounded-full text-center  shadow shadow-cyan-600 font-bold lg:m-4 m-1 p-3 border-1 border-pink-500">
                   Bootstrap
                 </div>
+                <div className="btn  text-transparent bg-clip-text bg-gradient-to-r from-white to-purple-300 w-[40%] lg:p-4 text-1xl rounded-full text-center  shadow shadow-cyan-600 font-bold lg:m-4 m-1 p-3 mt-4 border-1 border-pink-500">
+                    HTML
+                  </div>
+                
+                  </div>
+             
               </div>
             </div>
           </div>

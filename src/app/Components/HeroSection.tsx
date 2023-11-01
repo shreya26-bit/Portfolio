@@ -20,7 +20,7 @@ function HeroSection() {
             Hello i'm{" "}
           </span>*/}
           <br></br>
-          <div className="mt-6 text-2xl text-pink-500">
+          <div className="mt-6 text-[22px] lg:text-3xl md:text-3xl text-pink-500">
             <TypeAnimation
               sequence={[
                 "FRONT-END-DEVELOPER",
@@ -33,7 +33,7 @@ function HeroSection() {
               repeat={Infinity}
             />
           </div>
-          <h1 className="mt-6 text-5xl font-bold w-full">SHREYA SINGH</h1>
+          <h1 className="mt-4 lg:text-5xl text-[33px] font-bold w-full">SHREYA SINGH</h1>
         </h1>
         <span className="my-4"></span>
         <p className="mt-6 lg:text-[23px]  text-transparent bg-clip-text bg-gradient-to-r from-white to-purple-300 font-semibold text-[18.7px] ">
