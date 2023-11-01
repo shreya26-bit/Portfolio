@@ -10,6 +10,7 @@ import { BsInstagram } from "react-icons/bs";
 import { BiLogoGmail } from "react-icons/bi";
 import { FaHackerrank } from "react-icons/fa";
 import { BsDiscord } from "react-icons/bs";
+import Link from "next/link";
 
 function HeroSection() {
   return (
@@ -22,47 +23,53 @@ function HeroSection() {
           <br></br>
           <div className="mt-6 text-[22px] lg:text-3xl md:text-3xl text-pink-500">
             <TypeAnimation
-              sequence={[
-                "FRONT-END-DEVELOPER",
-                1000,
-               "PROGRAMMER",
-               1000,
-              ]}
+              sequence={["FRONT-END-DEVELOPER", 1000, "PROGRAMMER", 1000]}
               wrapper="span"
               speed={50}
               repeat={Infinity}
             />
           </div>
-          <h1 className="mt-4 lg:text-5xl text-[33px] font-bold w-full">SHREYA SINGH</h1>
+          <h1 className="mt-4 lg:text-5xl text-[33px] font-bold w-full">
+            SHREYA SINGH
+          </h1>
         </h1>
         <span className="my-4"></span>
         <p className="mt-6 lg:text-[23px]  text-transparent bg-clip-text bg-gradient-to-r from-white to-purple-300 font-semibold text-[18.7px] ">
-        I am a motivated and versatile individual, always eager to embrace new challenges.
+          I am a motivated and versatile individual, always eager to embrace new
+          challenges.
         </p>
         <p className=" lg:text-[23px]  text-transparent bg-clip-text bg-gradient-to-r from-white to-purple-300 font-semibold text-[18.7px] ">
-        With a deep-seated passion for learning, I am committed to delivering high-quality results in every endeavor I undertake.
+          With a deep-seated passion for learning, I am committed to delivering
+          high-quality results in every endeavor I undertake.
         </p>
 
-        <div className=" flex  mt-6  ">
-          <div className="  hover:text-pink-600 hover:cursor-pointer">
-            <AiFillGithub size={29} />
-          </div>
-          <div className="mx-2 hover:text-pink-600 hover:cursor-pointer ">
-            <BsTwitter size={29} />
-          </div>
-          <div className="mx-2 hover:text-pink-600 hover:cursor-pointer">
-            <BsLinkedin size={29} />
-          </div>
+        <div className=" flex mt-6  ">
+          <Link href={"https://github.com/shreya26-bit"}>
+            <div className="  hover:text-pink-600 hover:cursor-pointer">
+              <AiFillGithub size={29} />
+            </div>
+          </Link>
+          <Link href={"https://www.linkedin.com/in/shreya-singh-4b57a3229/"}>
+            <div className="mx-4 hover:text-pink-600 hover:cursor-pointer">
+              <BsLinkedin size={29} />
+            </div>
+          </Link>
+          <Link href={"/"}>
+            <div className="mx-2  hover:text-pink-600 hover:cursor-pointer">
+              <BiLogoGmail size={29} />
+            </div>
+          </Link>
+          <Link href={"https://www.hackerrank.com/profile/shreyasingh22261"}>
+            <div className="mx-4 hover:text-pink-600 hover:cursor-pointer ">
+              <FaHackerrank size={29} />
+            </div>
+          </Link>
 
-          <div className="mx-2  hover:text-pink-600 hover:cursor-pointer">
-            <BiLogoGmail size={29} />
-          </div>
-          <div className="mx-4 hover:text-pink-600 hover:cursor-pointer ">
-            <FaHackerrank size={29} />
-          </div>
-          <div className="mx-4 hover:text-pink-600 hover:cursor-pointer ">
-            <BsDiscord size={29} />
-          </div>
+          <Link href={"https://www.hackerrank.com/profile/shreyasingh22261"}>
+            <div className="mx-4 hover:text-pink-600 hover:cursor-pointer ">
+              < BsTwitter size={29} />
+            </div>
+          </Link>
         </div>
       </div>
 

@@ -6,6 +6,8 @@ import Project from "./Components/Project";
 import ContactUs from "./Components/contactUs";
 import Education from "./Components/Education";
 import About from "./Components/About";
+import App from "./Components/Contact";
+import Footer from "./Components/Footer";
 
 export default function Home() {
   return (
@@ -13,10 +15,11 @@ export default function Home() {
       <Navbar />
       <div className="container  mt-20 ">
         <HeroSection />
-        <About/>
+        <About />
         <Project />
         <Education />
-        {/* <ContactUs/> */}
+        <App />
+        <Footer />
       </div>
     </main>
   );
