@@ -34,15 +34,7 @@ const projectDetails = [
     github:"https://github.com/shreya26-bit/e-Cart-App",
     liveDemo:"https://e-cart-app-ebon.vercel.app/",
   },
-   
-  {
-    id: 5,
-    des:"Pure HTML & CSS",
-    title: "FOOD DELIVERY",
-    image: "Images/foodDelivery.png",
-    github:"",
-    liveDemo:"",
-  },
+  
   {
     id: 6,
     des: "Javascript Website",
@@ -51,24 +43,34 @@ const projectDetails = [
     github:"https://github.com/shreya26-bit/Keep-Notes",
     liveDemo:"https://keep-notes-nine.vercel.app/",
   },
+
+  {
+    id: 5,
+    des:"Pure HTML & CSS",
+    title: "FOOD DELIVERY",
+    image: "Images/foodDelivery.png",
+    github:"",
+    liveDemo:"",
+  },
+ 
 ];
 
 function Project() {
   return (
     <>
       <div id="project">
-        <div className="lg:mt-40 mt-20">
-          <h1 className=" text-4xl text-bold lg:text-center font-bold m-4 text-pink-400 ">
+        <div className="lg:mt-20 mt-20">
+          <h1 className=" text-5xl text-bold lg:text-center font-bold m-4 text-pink-400 ">
             Project
           </h1>
       
           <div className="flex flex-col">
-            <p className=" hidden lg:block m-1 lg:text-[20px] text-[20px] lg:text-center text-white p-2">
+            {/* <p className=" hidden lg:block m-1 lg:text-[20px] text-[20px] lg:text-center text-white p-2">
               Here you will find out my projects that I have created by using my
               skills 
-            </p>
+            </p> */}
           
-            <div className="ABOUTME flex mt-20"></div>
+            {/* <div className="ABOUTME flex mt-10"></div> */}
           </div>
         </div>
 

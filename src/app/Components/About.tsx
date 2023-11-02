@@ -16,15 +16,15 @@ function About() {
         }}
       ></div> */}
       <div className="flex flex-col">
-        <p className="lg:text-white  hidden lg:block lg:text-center lg:my-2 sm:text-black ">
+        {/* <p className="lg:text-white  hidden lg:block lg:text-center lg:my-2 sm:text-black ">
           Here you will find more information about me,what i do, and my current
           skills mostly in terms{" "}
-        </p>
-        <p className="lg:text-white sm:text-black lg:text-center hidden lg:block  lg:my-2 ">
+        </p> */}
+        {/* <p className="lg:text-white sm:text-black lg:text-center hidden lg:block  lg:my-2 ">
           of programming and technology
-        </p>
+        </p> */}
       </div>
-      <div className="lg:flex-row lg:mt-40 lg:m-2 m-4 mt-4">
+      <div className="lg:flex-row lg:mt-10 lg:m-2 m-4 mt-4">
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 gap-y-12">
           <div className="flex flex-col lg:mt-8 ">
             <h1 className="text-pink-500 lg:m-8 lg:text-4xl mt-4 text-3xl">

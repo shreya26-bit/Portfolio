@@ -45,7 +45,7 @@ function HeroSection() {
 
         <div className=" flex mt-6  ">
           <Link href={"https://github.com/shreya26-bit"}>
-            <div className="  hover:text-pink-600 hover:cursor-pointer">
+            <div className="mx-4  hover:text-pink-600 hover:cursor-pointer">
               <AiFillGithub size={29} />
             </div>
           </Link>
@@ -54,22 +54,22 @@ function HeroSection() {
               <BsLinkedin size={29} />
             </div>
           </Link>
-          <Link href={"/"}>
+          {/* <Link href={"/"}>
             <div className="mx-2  hover:text-pink-600 hover:cursor-pointer">
               <BiLogoGmail size={29} />
             </div>
-          </Link>
+          </Link> */}
           <Link href={"https://www.hackerrank.com/profile/shreyasingh22261"}>
             <div className="mx-4 hover:text-pink-600 hover:cursor-pointer ">
               <FaHackerrank size={29} />
             </div>
           </Link>
-
+{/* 
           <Link href={"https://www.hackerrank.com/profile/shreyasingh22261"}>
             <div className="mx-4 hover:text-pink-600 hover:cursor-pointer ">
               < BsTwitter size={29} />
             </div>
-          </Link>
+          </Link> */}
         </div>
       </div>
 

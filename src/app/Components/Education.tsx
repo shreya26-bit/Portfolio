@@ -4,7 +4,7 @@ function Education() {
   return (
     <div id="education">
     <div className="lg:mt-40 mt-20">
-      <h1 className=" text-4xl text-bold lg:text-center font-bold m-4 text-pink-400 ">Education</h1>
+      <h1 className=" text-5xl text-bold lg:text-center font-bold m-4 text-pink-400 ">Education</h1>
       {/* <div
         className="mt-2 h-screen flex m-auto  "
         style={{
